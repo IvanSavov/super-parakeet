@@ -9,7 +9,7 @@
          <label for="bmenub" class="burger pseudo button">Menu</label>
 
          <div class="menu">
-            <a href="index2.0.html" class="pseudo button">Есетра</a>
-            <a href="index3.0.html" class="pseudo button">Морска котка</a>
+            <a href="index2.0.html" class="{% if page.name != 'index2.0.html' %}pseudo{% endif %} button">Есетра</a>
+            <a href="index3.0.html" class="{% if page.name != 'index3.0.html' %}pseudo{% endif %} button">Морска котка</a>
          </div>
       </nav>
